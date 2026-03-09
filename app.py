@@ -112,7 +112,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Next.js runs here
+    allow_origins=["https://research-agent-frontend-xi.vercel.app"],  # Next.js runs here
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
